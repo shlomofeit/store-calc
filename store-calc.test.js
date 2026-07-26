@@ -40,7 +40,7 @@ describe("applyTax", () => {
   });
 
   it("get price with some tax percent and return the correct price", () => {
-    assert.strictEqual(applyTax(100, 0.1), 90);
+    assert.strictEqual(applyTax(100, 0.1), 110);
   });
 });
 
